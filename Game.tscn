@@ -38,7 +38,7 @@ material/0 = SubResource( 2 )
 shape = SubResource( 3 )
 
 [node name="key" parent="Maze" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.99612 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4103, 3.99612 )
 
 [node name="Exit" type="Area" parent="Maze"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.62905 )
@@ -52,7 +52,7 @@ omni_range = 3.0
 omni_attenuation = 2.0
 
 [node name="CollisionShape" type="CollisionShape" parent="Maze/Exit"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.392916, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.392916, 0.0598512 )
 shape = SubResource( 6 )
 
 [node name="Player" type="KinematicBody" parent="."]
