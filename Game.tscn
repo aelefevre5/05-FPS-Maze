@@ -159,6 +159,7 @@ current = true
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 7 )
+autoplay = true
 
 [node name="Key" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 8 )
